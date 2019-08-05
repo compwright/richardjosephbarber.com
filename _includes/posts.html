@@ -6,8 +6,8 @@
             {{ include.section.subtitle | markdownify }}
         </header>
         <div class="posts">
-            {% assign arr = '/albums' | get_pages | where_exp: "item", "item.show_in_home_posts == true" | sort: 'date' | reverse %}
-            {% for post in arr %}
+            {% assign posts = site[include.section.type] %}
+            {% for post in posts | where_exp: "item", "item.show_in_home_posts == true" | sort: 'date' | reverse %}
                 <section class="post">
                     {% assign alt_img_is_not_empty = post.alt_img | is_not_empty %}
                     {% if alt_img_is_not_empty %}
