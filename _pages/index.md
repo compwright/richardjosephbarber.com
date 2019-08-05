@@ -4,8 +4,8 @@ banner:
   title: Richard Joseph Barber
   subtitle: is a composer and church music director in Colorado Springs, Colorado.
   actions:
-    - label: Buy Sheet Music
-      url: https://www.sheetmusicplus.com/publishers/richard-joseph-barber/3052
+    - label: About Richard
+      url: /about
 sections:
   - type: albums
     template: posts
