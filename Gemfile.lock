@@ -62,10 +62,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.8.4)
-  jekyll-menus (~> 0.6.0)
-  jekyll-paginate (~> 1.1)
-  jekyll-paginate-v2 (~> 1.9)
+  jekyll (= 3.8.4)
+  jekyll-menus
+  jekyll-paginate
+  jekyll-paginate-v2
 
 BUNDLED WITH
    2.0.2
