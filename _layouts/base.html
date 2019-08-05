@@ -2,7 +2,7 @@
 <html>
     <head>    
         
-        <title>{% assign title_is_not_empty = page.title | is_not_empty %}{% if title_is_not_empty %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+        <title>{% if page.url == "/index" %}{{ site.title }}{% else %}{{ page.title }} – {{ site.title }}{% endif %}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
@@ -11,12 +11,12 @@
 
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="{% assign title_is_not_empty = page.title | is_not_empty %}{% if title_is_not_empty %}{{ page.title }} - {% endif %}{{ site.title }}">
+        <meta name="twitter:title" content="{% if page.url == "/index" %}{{ site.title }}{% else %}{{ page.title }} – {{ site.title }}{% endif %}">
         <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt }}{% endif %}">
         <meta name="twitter:image:src" content="{{ site.url }}/images/13575949_10154255720829590_8317084945855867197_o.jpg">
 
         <!-- Facebook OpenGraph -->
-        <meta property="og:title" content="{% assign title_is_not_empty = page.title | is_not_empty %}{% if title_is_not_empty %}{{ page.title }} - {% endif %}{{ site.title }}" />
+        <meta property="og:title" content="{% if page.url == "/index" %}{{ site.title }}{% else %}{{ page.title }} – {{ site.title }}{% endif %}" />
         <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt }}{% endif %}" />
         <meta property="og:image" content="{{ site.url }}/images/13575949_10154255720829590_8317084945855867197_o.jpg" />
 

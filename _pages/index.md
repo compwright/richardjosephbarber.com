@@ -1,4 +1,5 @@
 ---
+title: Home
 description: Richard Joseph Barber is a composer and church music director in Colorado Springs, Colorado.
 banner:
   title: Richard Joseph Barber
