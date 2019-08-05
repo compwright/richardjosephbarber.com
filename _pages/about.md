@@ -1,6 +1,6 @@
 ---
 title: About Richard
-subtitle:
+description: Richard Joseph Barber is a composer, teacher, conductor, and piano tuner in Colorado Springs, Colorado. He holds a Bachelor of Music in Public School Music from Western Michigan University and a Master of Music in Applied Vocal Music from the same.
 content_img:
   enabled: true
   path: images/13575949_10154255720829590_8317084945855867197_o.jpg
