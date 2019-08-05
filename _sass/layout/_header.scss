@@ -29,6 +29,8 @@
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
+		font-size: 1.5em;
+		text-align: center;
 
 		a {
 			color: inherit;
@@ -42,7 +44,7 @@
 			display: inline-block;
 			height: inherit;
 			line-height: inherit;
-			margin-left: 1.5em;
+			//margin-left: 1.5em;
 
 			a {
 				display: inline-block;
@@ -143,9 +145,9 @@
 			line-height: 5em;
 			position: absolute;
 
-			h1 {
-				margin-left: 2.5em;
-			}
+			// h1 {
+			// 	margin-left: 2.5em;
+			// }
 
 			nav {
 				margin-right: 2.5em;
@@ -226,9 +228,9 @@
 			height: 3em !important;
 			line-height: 2.95em !important;
 
-			h1 {
-				margin-left: 1.25em !important;
-			}
+			// h1 {
+			// 	margin-left: 1.25em !important;
+			// }
 
 			nav {
 				display: none;

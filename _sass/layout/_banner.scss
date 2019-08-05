@@ -10,7 +10,7 @@
 		@include banner-bg('../../images/13575949_10154255720829590_8317084945855867197_o.jpg');
 		position: relative;
 		min-height: 70vh;
-		height: 35em;
+		height: 100vh;
 
 		.content {
 			position: absolute;
@@ -61,7 +61,7 @@
 			}
 
 			@include orientation(portrait) {
-				height: 50em;
+				height: 70vh;
 			}
 
 			.content {
@@ -87,7 +87,7 @@
 			}
 
 			@include orientation(portrait) {
-				height: 30em;
+				height: 50vh;
 			}
 
 			.content {
