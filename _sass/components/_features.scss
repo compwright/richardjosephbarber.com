@@ -12,9 +12,14 @@
 
 		li {
 			@include vendor('display', 'flex');
-			border-top: solid (_size(border-width) * 2);
+			//border-top: solid (_size(border-width) * 2);
 			margin: (_size(element-margin) * 1.5) 0 0 0;
 			padding: (_size(element-margin) * 1.5) 0 0 0;
+
+			&.action a {
+				margin: auto;
+				text-align: center;
+			}
 
 			h3 {
 				margin-bottom: 0;

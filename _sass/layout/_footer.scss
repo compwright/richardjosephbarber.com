@@ -7,7 +7,7 @@
 /* Footer */
 
 	#footer {
-		@include banner-bg('../../images/banner.jpg');
+		@include banner-bg('../../images/13581993_10154255730719590_3361858312418561289_o.jpg');
 		@include color-typography(accent4);
 		@include color-button(accent4);
 		@include color-section(accent4);
@@ -17,18 +17,24 @@
 			background-color: _palette(accent4, bg);
 
 			> .inner {
-				@include vendor('display', 'flex');
 				margin: 0 auto;
 				width: 70em;
+				
+				> form {
+					@include vendor('display', 'flex');
 
-				> * {
-					padding-left: (_size(element-margin) * 1.5);
-					width: 25%;
-				}
+					label {
+						color: white;
+					}
 
-				.about {
-					padding-left: 0;
-					width: 50%;
+					> * {
+						padding-left: (_size(element-margin) * 1.5);
+						width: 50%;
+
+						&:first-child {
+							padding-left: 0;
+						}
+					}
 				}
 			}
 
@@ -37,30 +43,12 @@
 
 				> .inner {
 					width: _size(inner-width, large);
-
-					> * {
-						width: 30%;
-					}
-
-					.about {
-						width: 40%;
-					}
 				}
 			}
 
 			@include breakpoint('<=medium') {
 				> .inner {
 					@include vendor('flex-wrap', 'wrap');
-
-					> * {
-						width: 50%;
-						padding-left: 0;
-					}
-
-					.about {
-						width: 100%;
-						margin: 0 0 _size(element-margin) 0;
-					}
 				}
 			}
 

@@ -33,10 +33,11 @@
 		a {
 			color: inherit;
 			text-decoration: none;
+			text-shadow: 2px 1px 2px rgba(0,0,0,0.75);
 		}
 
 		h1 {
-			@include icon;
+			//@include icon;
 			color: _palette(accent4, fg-bold);
 			display: inline-block;
 			height: inherit;
@@ -50,20 +51,20 @@
 				line-height: inherit;
 			}
 
-			&:before {
-				background: _palette(accent4, fg-bold);
-				border-radius: 100%;
-				color: _palette(accent1, bg);
-				content: '\f1b3';
-				display: inline-block;
-				font-size: 0.9em;
-				height: 2em;
-				line-height: 2em;
-				margin-left: -0.5em;
-				margin-right: 0.5em;
-				text-align: center;
-				width: 2em;
-			}
+			// &:before {
+			// 	background: _palette(accent4, fg-bold);
+			// 	border-radius: 100%;
+			// 	color: _palette(accent1, bg);
+			// 	content: '\f1b3';
+			// 	display: inline-block;
+			// 	font-size: 0.9em;
+			// 	height: 2em;
+			// 	line-height: 2em;
+			// 	margin-left: -0.5em;
+			// 	margin-right: 0.5em;
+			// 	text-align: center;
+			// 	width: 2em;
+			// }
 		}
 
 		nav {

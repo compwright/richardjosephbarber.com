@@ -66,10 +66,11 @@
 
 	textarea {
 		padding: 0.75em 1em;
+		min-height: _size(element-height) * 3.7;
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -179,7 +180,7 @@
 		}
 
 		input[type="checkbox"],
-		input[type="radio"], {
+		input[type="radio"] {
 			& + label {
 				color: _palette($p, fg);
 
@@ -219,23 +220,23 @@
 		}
 
 		::-webkit-input-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: #ffffff !important;
 		}
 
 		:-moz-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: #ffffff !important;
 		}
 
 		::-moz-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: #ffffff !important;
 		}
 
 		:-ms-input-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: #ffffff !important;
 		}
 
 		.formerize-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: #ffffff !important;
 		}
 	}
 

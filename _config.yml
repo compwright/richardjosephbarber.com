@@ -3,22 +3,15 @@ title: Richard Joseph Barber, Composer
 baseurl: "/"
 permalink: "/:title/"
 landing_template: home
-palette: blue
+palette: barber
 palettes:
-  blue:
+  barber:
     sass:
-      gradient1: "#27a1e3"
-      gradient2: "#e7232a"
+      gradient1: "#000000"
+      gradient2: "#ffffff"
       accent1: "#5f9dd2"
       accent2: "#758ce1"
       accent3: "#e286a9"
-  green:
-    sass:
-      gradient1: "#16f4cf"
-      gradient2: "#6532e5"
-      accent1: "#54d3cf"
-      accent2: "#4f92d1"
-      accent3: "#8075e5"
 sass:
   indentWidth: 4
   style: nested
@@ -38,5 +31,9 @@ exclude:
 - README.md
 - netlify.toml
 collections:
-  posts:
-    permalink: "/posts/:title/"
+  pages:
+    output: true
+    permalink: /:name
+  albums:
+    output: true
+    permalink: "/albums/:title"

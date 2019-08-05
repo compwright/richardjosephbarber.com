@@ -32,7 +32,7 @@
 		}
 
 		&.cta {
-			@include banner-bg('../../images/cta.jpg', true);
+			@include banner-bg('../../images/13581993_10154255730719590_3361858312418561289_o.jpg', true);
 			@include color-typography(accent4);
 			@include color-button(accent4);
 
@@ -48,6 +48,17 @@
 				> :first-child {
 					padding-left: 0;
 					width: 50%;
+				}
+
+				> blockquote {
+					border: none;
+					padding: 0;
+					margin: 0;
+					width: 100% !important;
+					text-align: center;
+					font-weight: bold;
+					font-size: 1.75em;
+					line-height: 1.5em;
 				}
 			}
 
