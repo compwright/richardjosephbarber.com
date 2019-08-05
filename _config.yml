@@ -16,8 +16,8 @@ sass:
   indentWidth: 4
   style: nested
   precision: 10
-plugins:
-- jekyll-menus
+#plugins:
+#- jekyll-menus
 exclude:
 - Gemfile
 - Gemfile.lock
